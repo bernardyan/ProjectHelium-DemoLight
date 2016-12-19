@@ -72,7 +72,14 @@
         if (beacon.rssi == 0) {//when beacon broadcast stops, the delegate still get called for a few seconds, but we can know it from rssi value
             self.view.backgroundColor = [UIColor darkGrayColor];
         }else{
-            self.view.backgroundColor = [UIColor whiteColor];
+            if (beacon.rssi > -57) {
+                self.view.backgroundColor = [UIColor whiteColor];
+                
+            }else{
+                self.view.backgroundColor = [UIColor darkGrayColor];
+                
+            }
+            
         }
         
     }else{
