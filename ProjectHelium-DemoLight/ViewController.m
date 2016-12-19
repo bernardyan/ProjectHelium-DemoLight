@@ -80,7 +80,7 @@
     }
     
     //NSLog([beacon.major description]);
-    NSLog([beacon description]);
+    //NSLog([beacon description]);
     
     
 }

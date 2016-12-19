@@ -207,7 +207,7 @@
 				TargetAttributes = {
 					A1B8EFAF1D1CE1D400A884D0 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 297LS67QZ8;
+						DevelopmentTeam = B36FU73BET;
 						DevelopmentTeamName = "Yan Bonan";
 						ProvisioningStyle = Automatic;
 					};
@@ -426,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B36FU73BET;
 				INFOPLIST_FILE = "ProjectHelium-DemoLight/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -438,6 +439,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B36FU73BET;
 				INFOPLIST_FILE = "ProjectHelium-DemoLight/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -511,6 +513,7 @@
 				A1B8EFDF1D1CE1D400A884D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1B8EFE01D1CE1D400A884D0 /* Build configuration list for PBXNativeTarget "ProjectHelium-DemoLightTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +522,7 @@
 				A1B8EFE21D1CE1D400A884D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1B8EFE31D1CE1D400A884D0 /* Build configuration list for PBXNativeTarget "ProjectHelium-DemoLightUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +531,7 @@
 				A1B8EFE51D1CE1D400A884D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
